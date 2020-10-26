@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1231
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GstRtspServer", "GstRtspServer\GstRtspServer.vcxproj", "{002EBCCD-CCFE-4AA6-A744-9625F6FD0A54}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|ARM = Debug|ARM
+		Debug|ARM64 = Debug|ARM64
+		Release|ARM = Release|ARM
+		Release|ARM64 = Release|ARM64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{002EBCCD-CCFE-4AA6-A744-9625F6FD0A54}.Debug|ARM.ActiveCfg = Debug|ARM
+		{002EBCCD-CCFE-4AA6-A744-9625F6FD0A54}.Debug|ARM.Build.0 = Debug|ARM
+		{002EBCCD-CCFE-4AA6-A744-9625F6FD0A54}.Debug|ARM64.ActiveCfg = Debug|ARM64
+		{002EBCCD-CCFE-4AA6-A744-9625F6FD0A54}.Debug|ARM64.Build.0 = Debug|ARM64
+		{002EBCCD-CCFE-4AA6-A744-9625F6FD0A54}.Release|ARM.ActiveCfg = Release|ARM
+		{002EBCCD-CCFE-4AA6-A744-9625F6FD0A54}.Release|ARM.Build.0 = Release|ARM
+		{002EBCCD-CCFE-4AA6-A744-9625F6FD0A54}.Release|ARM64.ActiveCfg = Release|ARM64
+		{002EBCCD-CCFE-4AA6-A744-9625F6FD0A54}.Release|ARM64.Build.0 = Release|ARM64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F9928B68-1A04-48A4-8F27-213357A56E41}
+	EndGlobalSection
+EndGlobal
