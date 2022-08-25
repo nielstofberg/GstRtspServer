@@ -1,4 +1,4 @@
-#include <wiringPi.h>
+//#include <wiringPi.h>
 #include <glib.h>
 #include <gst/gst.h>
 #include <gst/rtsp-server/rtsp-server.h>
@@ -51,6 +51,7 @@ int main(int argc, char *argv[])
 	 * element with pay%d names will be a stream */
 	factory = gst_rtsp_media_factory_new();
 	gst_rtsp_media_factory_set_launch(factory, argv[1]);
+
 	gst_rtsp_media_factory_set_shared(factory, TRUE);
 
 	/* attach the test factory to the /test url */
